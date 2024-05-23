@@ -71,5 +71,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-[Ll]ibrary/
-[Ll]ibrary/ArtifactDB/*
+/Virtulingo/[Ll]ibrary/
