@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/julia/OneDrive/Dokumenty/GitHub/Virtulingo/Virtulingo/Packages/manifest.json
+    m_FilePath: C:/Users/julia/Virtulingo/Virtulingo/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638415709212212574
-    m_Hash: 3633553993
+      ticks: 638524098817657379
+    m_Hash: 1879804570
   m_LockFileStatus:
-    m_FilePath: C:/Users/julia/OneDrive/Dokumenty/GitHub/Virtulingo/Virtulingo/Packages/packages-lock.json
+    m_FilePath: C:/Users/julia/Virtulingo/Virtulingo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638415709212314690
-    m_Hash: 79073686
+      ticks: 638524098817759404
+    m_Hash: 444140424
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/julia/OneDrive/Dokumenty/GitHub/Virtulingo/Virtulingo/Packages
-m_EditorVersion: 2022.3.18f1 (d29bea25151d)
+m_ProjectPath: C:/Users/julia/Virtulingo/Virtulingo/Packages
+m_EditorVersion: 2023.2.20f1 (0e25a174756c)
 m_ResolvedPackages:
-- packageId: com.meta.xr.sdk.all@60.0.0
+- packageId: com.meta.xr.sdk.all@65.0.0
   testable: 0
   isDirectDependency: 1
-  version: 60.0.0
+  version: 65.0.0
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.all@60.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.all@65.0.0
   assetPath: Packages/com.meta.xr.sdk.all
   name: com.meta.xr.sdk.all
   displayName: Meta XR All-in-One SDK
@@ -38,89 +38,83 @@ m_ResolvedPackages:
   category: 
   type: 
   description: Meta XR All-in-One SDK is a wrapper package that depends on the latest
-    version of all main Meta XR SDKs, making it easy to get started with VR and MR
-    development.
-  status: 0
+    version of all Meta XR SDKs, making it easy to get started with VR development.
   errors: []
   versions:
     all:
     - 59.0.0
     - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     compatible:
     - 59.0.0
     - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     recommended: 
     deprecated: []
   dependencies:
   - name: com.meta.xr.mrutilitykit
-    version: 60.0.0
+    version: 65.0.0
   - name: com.meta.xr.sdk.audio
-    version: 60.0.0
+    version: 65.0.0
   - name: com.meta.xr.sdk.core
-    version: 60.0.0
+    version: 65.0.0
   - name: com.meta.xr.sdk.haptics
-    version: 60.0.0
+    version: 65.0.0
   - name: com.meta.xr.sdk.interaction
-    version: 60.0.0
+    version: 65.0.0
   - name: com.meta.xr.sdk.interaction.ovr
-    version: 60.0.0
+    version: 65.0.0
   - name: com.meta.xr.sdk.platform
-    version: 60.0.0
+    version: 65.0.0
   - name: com.meta.xr.sdk.voice
-    version: 60.0.0
-  - name: com.meta.xr.sdk.voice.composer
-    version: 60.0.0
-  - name: com.meta.xr.sdk.voice.dictation
-    version: 60.0.0
-  - name: com.meta.xr.sdk.voice.telemetry
-    version: 60.0.0
+    version: 65.0.0
   - name: com.meta.xr.simulator
-    version: 60.0.0
+    version: 65.0.0
   resolvedDependencies:
   - name: com.meta.xr.mrutilitykit
-    version: 60.0.0
+    version: 65.0.0
   - name: com.meta.xr.sdk.core
-    version: 60.0.0
-  - name: com.meta.xr.sdk.interaction
-    version: 60.0.0
-  - name: com.unity.textmeshpro
-    version: 3.0.6
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.meta.xr.sdk.interaction.ovr
-    version: 60.0.0
+    version: 65.0.0
   - name: com.unity.ai.navigation
-    version: 1.1.5
+    version: 2.0.0
   - name: com.unity.modules.ai
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
+  - name: com.unity.textmeshpro
+    version: 5.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   - name: com.meta.xr.sdk.audio
-    version: 60.0.0
+    version: 65.0.0
   - name: com.meta.xr.sdk.haptics
-    version: 60.0.0
+    version: 65.0.0
+  - name: com.meta.xr.sdk.interaction
+    version: 65.0.0
+  - name: com.meta.xr.sdk.interaction.ovr
+    version: 65.0.0
   - name: com.meta.xr.sdk.platform
-    version: 60.0.0
+    version: 65.0.0
   - name: com.meta.xr.sdk.voice
-    version: 60.0.0
-  - name: com.meta.xr.sdk.voice.composer
-    version: 60.0.0
-  - name: com.meta.xr.sdk.voice.dictation
-    version: 60.0.0
-  - name: com.meta.xr.sdk.voice.telemetry
-    version: 60.0.0
+    version: 65.0.0
   - name: com.meta.xr.simulator
-    version: 60.0.0
+    version: 65.0.0
   keywords:
-  - Oculus
   - XR
   - Meta
   - SDK
   - Quest
+  - Oculus
   registry:
     id: main
     name: 
@@ -130,8 +124,10 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 638387166300000000
+  datePublishedTicks: 638514881750000000
   documentationUrl: https://developer.oculus.com/documentation/unity/
   hasRepository: 0
   repository:
@@ -147,12 +143,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.collab-proxy@2.2.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 269657
+- packageId: com.unity.collab-proxy@2.3.1
   testable: 0
   isDirectDependency: 1
-  version: 2.2.0
+  version: 2.3.1
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.collab-proxy@2.2.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.collab-proxy@2.3.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -165,7 +167,6 @@ m_ResolvedPackages:
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
     more about how you can get started for free by visiting https://unity.com/solutions/version-control
-  status: 0
   errors: []
   versions:
     all:
@@ -239,9 +240,10 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     - 2.1.0
     - 2.2.0
+    - 2.3.1
     compatible:
-    - 2.2.0
-    recommended: 2.2.0
+    - 2.3.1
+    recommended: 2.3.1
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -269,29 +271,56 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638326189440000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.2/manual/index.html
+  datePublishedTicks: 638448201880000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.3/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 33c8fba1793946be3c73f738edf70db0b5546afd
+    revision: 613362ccb4468f55ee42e0a35809fb9a61f3f8f1
     path: 
   unityLifecycle:
-    version: 2.2.0
+    version: 2.3.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.feature.development@1.0.1
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"Unity Version Control is now available as part of the
+    Version Control Package! You can enable Unity Version Control via Window > Unity
+    Version Control to get started!\nIf you have previously used the Unity Asset
+    Store Plastic SCM plug-in, you can now simply use this package. Make sure you
+    delete the plug-in from your project.\nRemoving a previously added Plastic SCM
+    Asset Store Plug-In:\n\n- Select the PlasticSCM folder in the Assets\\Plugins
+    folder on the Project tab, then click Edit > Delete\n- Close the Unity Editor
+    and open your project again. You will find the Plastic SCM menu item in the Window
+    menu.\n\n### Added\n\n- New view to list and manage locks.\n\n### Fixed\n\n-
+    Fixed DropdownField not working properly on a ModalUtility window on MacOS.\n-
+    Fixed issue with existing checkout operations locking the workspace.\n- Retained
+    locks prevented to checkout assets.\n- Reviewed initialization and application
+    lifecycle.\n- Fixed layout error when switching checkout status in the inspector.\n-
+    Fixed Diff option unavailable for .prefab.\n- Fixed UI error when opening and
+    closing multiple closable tabs.\n- Ensured branch creations start from the latest
+    changeset.\n- Unable to expand added item list after collapsing.\n- Pending Changes
+    context menu had the view file history greyed out for asset+meta.\n- Preconfigured
+    date format was not recognized as a valid DateTime.\n- Fixed finding changes
+    operation being firing constantly.\n- Removed obsolete content in package documentation.\n-
+    Fixed typo in locks tooltip."}'
+  assetStore:
+    productId: 
+- packageId: com.unity.feature.development@1.0.2
   testable: 0
   isDirectDependency: 1
-  version: 1.0.1
+  version: 1.0.2
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.feature.development@1.0.1
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.feature.development@1.0.2
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -305,21 +334,18 @@ m_ResolvedPackages:
     feature set. Enable support for multiple integrated development environments
     (IDE) for editing your Unity code. Get access to development tools to help you
     test and analyze your project\u2019s performance."
-  status: 0
   errors: []
   versions:
     all:
-    - 1.0.1
+    - 1.0.2
     compatible:
-    - 1.0.1
-    recommended: 1.0.1
+    - 1.0.2
+    recommended: 1.0.2
     deprecated: []
   dependencies:
   - name: com.unity.ide.visualstudio
     version: default
   - name: com.unity.ide.rider
-    version: default
-  - name: com.unity.ide.vscode
     version: default
   - name: com.unity.editorcoroutines
     version: default
@@ -333,17 +359,15 @@ m_ResolvedPackages:
   - name: com.unity.ide.visualstudio
     version: 2.0.22
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.3.9
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.27
-  - name: com.unity.ide.vscode
-    version: 1.2.5
+    version: 3.0.28
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.performance.profile-analyzer
@@ -362,6 +386,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -372,204 +398,25 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.1
+    version: 1.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.textmeshpro@3.0.6
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"quickstart":"https://docs.unity3d.com/2021.2/Documentation/Manual/DeveloperToolsFeature.html"}'
+  assetStore:
+    productId: 
+- packageId: com.unity.timeline@1.8.6
   testable: 0
   isDirectDependency: 1
-  version: 3.0.6
+  version: 1.8.6
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.textmeshpro@3.0.6
-  assetPath: Packages/com.unity.textmeshpro
-  name: com.unity.textmeshpro
-  displayName: TextMeshPro
-  author:
-    name: 
-    email: 
-    url: 
-  category: Text Rendering
-  type: asset
-  description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
-    replacement for Unity''s UI Text and the legacy Text Mesh.
-
-
-    Powerful and
-    easy to use, TextMeshPro (also known as TMP) uses Advanced Text Rendering techniques
-    along with a set of custom shaders; delivering substantial visual quality improvements
-    while giving users incredible flexibility when it comes to text styling and texturing.
-
-
-    TextMeshPro
-    provides Improved Control over text formatting and layout with features like
-    character, word, line and paragraph spacing, kerning, justified text, Links,
-    over 30 Rich Text Tags available, support for Multi Font & Sprites, Custom Styles
-    and more.
-
-
-    Great performance. Since the geometry created by TextMeshPro
-    uses two triangles per character just like Unity''s text components, this improved
-    visual quality and flexibility comes at no additional performance cost.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.2
-    - 1.0.21
-    - 1.0.23
-    - 1.0.25
-    - 1.0.26
-    - 1.1.0
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.3.0-preview
-    - 1.3.0
-    - 1.4.0-preview.1b
-    - 1.4.0-preview.2a
-    - 1.4.0-preview.3a
-    - 1.4.0
-    - 1.4.1-preview.1
-    - 1.4.1
-    - 1.5.0-preview.1
-    - 1.5.0-preview.2
-    - 1.5.0-preview.3
-    - 1.5.0-preview.4
-    - 1.5.0-preview.5
-    - 1.5.0-preview.6
-    - 1.5.0-preview.7
-    - 1.5.0-preview.8
-    - 1.5.0-preview.10
-    - 1.5.0-preview.11
-    - 1.5.0-preview.12
-    - 1.5.0-preview.13
-    - 1.5.0-preview.14
-    - 1.5.0
-    - 1.5.1
-    - 1.5.3
-    - 1.5.4
-    - 1.5.5
-    - 1.5.6
-    - 1.6.0-preview.1
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.1
-    - 2.1.0-preview.1
-    - 2.1.0-preview.2
-    - 2.1.0-preview.3
-    - 2.1.0-preview.4
-    - 2.1.0-preview.5
-    - 2.1.0-preview.7
-    - 2.1.0-preview.8
-    - 2.1.0-preview.10
-    - 2.1.0-preview.11
-    - 2.1.0-preview.12
-    - 2.1.0-preview.13
-    - 2.1.0-preview.14
-    - 2.1.0
-    - 2.1.1
-    - 2.1.3
-    - 2.1.4
-    - 2.1.5
-    - 2.1.6
-    - 2.2.0-preview.1
-    - 2.2.0-preview.2
-    - 2.2.0-preview.3
-    - 3.0.0-preview.1
-    - 3.0.0-preview.3
-    - 3.0.0-preview.4
-    - 3.0.0-preview.5
-    - 3.0.0-preview.7
-    - 3.0.0-preview.8
-    - 3.0.0-preview.10
-    - 3.0.0-preview.11
-    - 3.0.0-preview.12
-    - 3.0.0-preview.13
-    - 3.0.0-preview.14
-    - 3.0.0
-    - 3.0.1
-    - 3.0.3
-    - 3.0.4
-    - 3.0.5
-    - 3.0.6
-    - 3.0.7
-    - 3.2.0-pre.1
-    - 3.2.0-pre.2
-    - 3.2.0-pre.3
-    - 3.2.0-pre.4
-    - 3.2.0-pre.5
-    - 3.2.0-pre.6
-    - 3.2.0-pre.7
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
-    compatible:
-    - 3.0.6
-    - 3.0.7
-    - 3.2.0-pre.1
-    - 3.2.0-pre.2
-    - 3.2.0-pre.3
-    - 3.2.0-pre.4
-    - 3.2.0-pre.5
-    - 3.2.0-pre.6
-    - 3.2.0-pre.7
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
-    recommended: 3.0.7
-    deprecated: []
-  dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  keywords:
-  - TextMeshPro
-  - TextMesh Pro
-  - TMP
-  - Text
-  - SDF
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637547111200000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
-    path: 
-  unityLifecycle:
-    version: 3.0.6
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.timeline@1.7.6
-  testable: 0
-  isDirectDependency: 1
-  version: 1.7.6
-  source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.timeline@1.7.6
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.timeline@1.8.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -581,7 +428,6 @@ m_ResolvedPackages:
   type: assets
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
-  status: 0
   errors: []
   versions:
     all:
@@ -671,15 +517,8 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     compatible:
-    - 1.7.6
-    - 1.8.0
-    - 1.8.1
-    - 1.8.2
-    - 1.8.3
-    - 1.8.4
-    - 1.8.5
     - 1.8.6
-    recommended: 1.7.6
+    recommended: 1.8.6
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -714,29 +553,44 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638326112840000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
+  datePublishedTicks: 638326112870000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 02f49ada64a9f88044207cf42ba407dc634ef8e6
+    revision: 9b8cc7590b7d733181284f1a846a02406b5524d8
     path: 
   unityLifecycle:
-    version: 1.7.6
+    version: 1.8.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ugui@1.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n\n- In the `Create Asset` menu, the `Signal`
+    and `Timeline` items have been moved to the `Timeline` submenu.\n\n### Fixed\n\n-
+    Fixed issue where changing the name of a group track was not undoable ([TB-218](https://issuetracker.unity3d.com/issues/timeline-track-group-renaming-doesnt-go-into-the-undo-history)).\n-
+    Fixed issue where a warning would be logged in the console for `TrackAsset` ([TB-229](https://issuetracker.unity3d.com/product/unity/issues/guid/TB-229)).\n-
+    Fixed performance regression when rebuilding the playable graph.\n- Fixed a `MissingReferenceException`
+    when editing a Timeline that is an instance of a prefab and a bound `Animator`
+    is destroyed ([TB-222](https://issuetracker.unity3d.com/issues/timeline-missingreferenceexceptions-when-undoing-add-animator-from-timeline))\n-
+    Removed warnings due to obsolete analytics API."}'
+  assetStore:
+    productId: 
+- packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
-  version: 1.0.0
+  version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.ugui@2.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -750,16 +604,18 @@ m_ResolvedPackages:
     and applications. It is a GameObject-based UI system that uses Components and
     the Game View to arrange, position, and style user interfaces. \u200B You cannot
     use Unity UI to create or change user interfaces in the Unity Editor."
-  status: 0
   errors: []
   versions:
     all:
-    - 1.0.0
+    - 2.0.0
     - 3.0.0-exp.1
     - 3.0.0-exp.3
+    - 3.0.0-exp.4
     compatible:
-    - 1.0.0
-    recommended: 1.0.0
+    - 2.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    recommended: 2.0.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.ui
@@ -776,6 +632,11 @@ m_ResolvedPackages:
   - ugui
   - Unity UI
   - Canvas
+  - TextMeshPro
+  - TextMesh Pro
+  - Text
+  - TMP
+  - SDF
   registry:
     id: main
     name: 
@@ -785,6 +646,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -795,19 +658,25 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 2.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.visualscripting@1.9.1
   testable: 0
   isDirectDependency: 1
   version: 1.9.1
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.visualscripting@1.9.1
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.visualscripting@1.9.1
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -829,7 +698,6 @@ m_ResolvedPackages:
 
     Visual scripting is compatible with third-party
     APIs, including most packages, assets and custom libraries.'
-  status: 0
   errors: []
   versions:
     all:
@@ -852,9 +720,15 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.9.0
     - 1.9.1
+    - 1.9.2
+    - 1.9.4
     compatible:
+    - 1.8.0
+    - 1.9.0
     - 1.9.1
-    recommended: 1.9.1
+    - 1.9.2
+    - 1.9.4
+    recommended: 1.8.0
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -864,7 +738,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ugui
-    version: 1.0.0
+    version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
@@ -881,6 +755,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638284821510000000
   documentationUrl: 
@@ -891,19 +767,26 @@ m_ResolvedPackages:
     revision: 5e78e9c354ed1567dbcea08e2bd9992e4a473cfb
     path: 
   unityLifecycle:
-    version: 1.9.1
+    version: 1.8.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.oculus@4.1.2
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Reverted a breaking change where `LudiqScriptableObject._data`
+    was marked as `private`\n- Reverted a breaking change related to `IGraphEventListener`"}'
+  assetStore:
+    productId: 
+- packageId: com.unity.xr.oculus@4.2.0
   testable: 0
   isDirectDependency: 1
-  version: 4.1.2
+  version: 4.2.0
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.xr.oculus@4.1.2
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.xr.oculus@4.2.0
   assetPath: Packages/com.unity.xr.oculus
   name: com.unity.xr.oculus
   displayName: Oculus XR Plugin
@@ -914,7 +797,6 @@ m_ResolvedPackages:
   category: 
   type: assets
   description: Provides display and input support for Oculus devices.
-  status: 0
   errors: []
   versions:
     all:
@@ -991,16 +873,16 @@ m_ResolvedPackages:
     - 3.2.3-pre.1
     - 3.2.3
     - 3.3.0
+    - 3.4.0
     - 4.0.0
     - 4.1.1
     - 4.1.2
     - 4.2.0-exp-env-depth.1
     - 4.2.0-exp-env-depth.2
+    - 4.2.0
     compatible:
-    - 4.1.2
-    - 4.2.0-exp-env-depth.1
-    - 4.2.0-exp-env-depth.2
-    recommended: 4.1.2
+    - 4.2.0
+    recommended: 4.2.0
     deprecated: []
   dependencies:
   - name: com.unity.xr.management
@@ -1037,29 +919,107 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638351474750000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.oculus@4.1/manual/index.html
+  datePublishedTicks: 638430747650000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.oculus@4.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.oculus.git
-    revision: 43cbde15c785269457550d6f414b4b2590c5ff3b
+    revision: a87e6a4842f6c06d6b8a576c83caec99c5fc3e60
     path: 
   unityLifecycle:
-    version: 4.1.2
+    version: 4.2.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n- Environment Depth APIs to allow for real
+    world depth to be sampled from a depth texture\n\n### Changed\n- Updated `GetConnectedControllers`
+    to match the Oculus Integration Package''s implementation\n- Removed PhaseSync
+    setting since it is now always active\n- Updated Oculus plugins to v60\n\n###
+    Fixed\n- Fixed issues with play in editor on ARM64 Windows devices\n\n### Known
+    Issues\n- `Unity.XR.Oculus.Stats.PerfMetrics` entries currently return `0` when
+    using the OpenXR runtime\n- `Unity.XR.Oculus.Stats.AppMetrics` entries return
+    `0` on all Oculus runtimes\n- For both of the above, the suggested replacement
+    is to use the profiling tools available via the Oculus Developer Hub: https://developer.oculus.com/documentation/unity/ts-odh-logs-metrics/"}'
+  assetStore:
+    productId: 
+- packageId: com.unity.modules.accessibility@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.accessibility@1.0.0
+  assetPath: Packages/com.unity.modules.accessibility
+  name: com.unity.modules.accessibility
+  displayName: Accessibility
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'The Accessibility module includes utilities to facilitate the development
+    of accessible user experiences in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AccessibilityModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1071,7 +1031,6 @@ m_ResolvedPackages:
   type: module
   description: 'The AI module implements the path finding features in Unity. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1092,6 +1051,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1109,12 +1070,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1125,7 +1092,6 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'AndroidJNI module allows you to call Java code. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AndroidJNIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1146,6 +1112,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1163,12 +1131,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1180,7 +1154,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Animation module implements Unity''s animation system. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AnimationModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1201,6 +1174,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1218,12 +1193,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1235,7 +1216,6 @@ m_ResolvedPackages:
   type: module
   description: 'The AssetBundle module implements the AssetBundle class and related
     APIs to load data from AssetBundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AssetBundleModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1256,6 +1236,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1273,12 +1255,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1290,7 +1278,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Audio module implements Unity''s audio system. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.AudioModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1311,6 +1298,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1328,12 +1317,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1345,7 +1340,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Cloth module implements cloth physics simulation through the
     Cloth component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ClothModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1370,6 +1364,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1387,12 +1383,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1404,7 +1406,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Director module implements the PlayableDirector class. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.DirectorModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1433,6 +1434,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1450,12 +1453,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1466,9 +1475,7 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'The ImageConversion module implements the ImageConversion class which
-    provides helper methods to convert images from and to PNG, JPEG or EXR formats.
-    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ImageConversionModule.html'
-  status: 0
+    provides helper methods for converting image data. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ImageConversionModule.html'
   errors: []
   versions:
     all:
@@ -1489,6 +1496,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1506,12 +1515,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1523,7 +1538,6 @@ m_ResolvedPackages:
   type: module
   description: 'The IMGUI module provides Unity''s immediate mode GUI solution for
     creating in-game and editor user interfaces. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.IMGUIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1544,6 +1558,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1561,12 +1577,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1578,7 +1600,6 @@ m_ResolvedPackages:
   type: module
   description: 'The JSONSerialize module provides the JsonUtility class which lets
     you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1599,6 +1620,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1616,12 +1639,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1633,7 +1662,6 @@ m_ResolvedPackages:
   type: module
   description: 'The ParticleSystem module implements Unity''s Particle System. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.ParticleSystemModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1654,6 +1682,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1671,12 +1701,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1688,7 +1724,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Physics module implements 3D physics in Unity. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.PhysicsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1709,6 +1744,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1726,12 +1763,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1743,7 +1786,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Physics2d module implements 2D physics in Unity. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.Physics2DModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1764,6 +1806,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1781,12 +1825,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1798,7 +1848,6 @@ m_ResolvedPackages:
   type: module
   description: 'The ScreenCapture module provides functionality to take screen shots
     using the ScreenCapture class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ScreenCaptureModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1823,6 +1872,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1840,12 +1891,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1857,7 +1914,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Terrain module implements Unity''s Terrain rendering engine available
     through the Terrain component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1878,6 +1934,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1895,12 +1953,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1912,7 +1976,6 @@ m_ResolvedPackages:
   type: module
   description: 'The TerrainPhysics module connects the Terrain and Physics modules
     by implementing the TerrainCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainPhysicsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1941,6 +2004,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1958,12 +2023,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1974,7 +2045,6 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'The Tilemap module implements the Tilemap class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TilemapModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1999,6 +2069,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2016,12 +2088,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2033,7 +2111,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UI module implements basic components required for Unity''s UI
     system Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2054,6 +2131,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2071,12 +2150,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2088,7 +2173,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UIElements module implements the UIElements retained mode UI
     framework. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIElementsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2104,12 +2188,16 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
     version: 1.0.0
   keywords: []
   registry:
@@ -2121,6 +2209,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2138,12 +2228,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2155,7 +2251,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Umbra module implements Unity''s occlusion culling system. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.UmbraModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2176,6 +2271,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2193,12 +2290,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2210,7 +2313,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityAnalytics module implements APIs required to use Unity Analytics.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityAnalyticsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2239,6 +2341,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2256,12 +2360,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2273,7 +2383,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequest module lets you communicate with http services.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2294,6 +2403,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2311,12 +2422,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2328,7 +2445,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestAssetBundle module provides the DownloadHandlerAssetBundle
     class to use UnityWebRequest to download Asset Bundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAssetBundleModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2357,6 +2473,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2374,12 +2492,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2391,7 +2515,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestAudio module provides the DownloadHandlerAudioClip
     class to use UnityWebRequest to download AudioClips. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAudioModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2420,6 +2543,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2437,12 +2562,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2454,7 +2585,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestTexture module provides the DownloadHandlerTexture
     class to use UnityWebRequest to download Textures. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestTextureModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2483,6 +2613,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2500,12 +2632,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2517,7 +2655,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestWWW module implements the legacy WWW lets you
     communicate with http services. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestWWWModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2562,6 +2699,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2579,12 +2718,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2596,7 +2741,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Vehicles module implements vehicle physics simulation through
     the WheelCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VehiclesModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2621,6 +2765,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2638,12 +2784,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2655,7 +2807,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Video module lets you play back video files in your content.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VideoModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2688,6 +2839,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2705,12 +2858,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2722,7 +2881,6 @@ m_ResolvedPackages:
   type: module
   description: 'The VR module implements support for virtual reality devices in Unity.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2757,6 +2915,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2774,12 +2934,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2791,7 +2957,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Wind module implements the WindZone component which can affect
     terrain rendering and particle simulations. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.WindModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2812,6 +2977,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2829,12 +2996,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2846,7 +3019,6 @@ m_ResolvedPackages:
   type: module
   description: 'The XR module contains the VR and AR related platform support functionality.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.XRModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2879,6 +3051,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2896,12 +3070,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2913,7 +3093,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Subsystem module contains the definitions and runtime support
     for general subsystems in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.SubsystemsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2938,6 +3117,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2955,12 +3136,80 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+- packageId: com.unity.modules.hierarchycore@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.modules.hierarchycore@1.0.0
+  assetPath: Packages/com.unity.modules.hierarchycore
+  name: com.unity.modules.hierarchycore
+  displayName: Hierarchy Core
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'Module that contains a high-performance hierarchy container. Scripting
+    API: https://docs.unity3d.com/ScriptReference/UnityEngine.HierarchyCoreModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.xr.management@4.4.0
   testable: 0
   isDirectDependency: 0
   version: 4.4.0
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.xr.management@4.4.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.xr.management@4.4.0
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -2973,7 +3222,6 @@ m_ResolvedPackages:
   description: Package that provides simple management of XR plug-ins. Manages and
     offers help with loading, initialization, settings, and build support for XR
     plug-ins.
-  status: 0
   errors: []
   versions:
     all:
@@ -3074,6 +3322,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638224209960000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.4/manual/index.html
@@ -3091,12 +3341,21 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n- Created `AndroidManifestProcessor` as
+    an Android manifest management system for XR packages and providers that target
+    platforms based on Android.\n\n### Removed\n- AndroidManifest.xml is no longer
+    deleted after each Android build."}'
+  assetStore:
+    productId: 
 - packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 0
   version: 2.0.22
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3109,7 +3368,6 @@ m_ResolvedPackages:
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
-  status: 0
   errors: []
   versions:
     all:
@@ -3146,9 +3404,9 @@ m_ResolvedPackages:
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.3.9
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -3163,6 +3421,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638326061910000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
@@ -3180,12 +3440,23 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.27
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"Integration:\n\n- Add support for `XDG_DATA_DIRS` and
+    `.desktop` files on Linux for `VS Code` discovery.\n- Use compile-time platform-specifics
+    instead of using runtime conditions.\n\nProject generation:\n\n- Suppress `USG0001`
+    warnings.\n- Mark referenced assemblies as private (to not copy extra files to
+    output directory when building).\n- Add Unity capability to SDK-Style projects.\n-
+    Prevent circular dependency errors with SDK-Style projects."}'
+  assetStore:
+    productId: 
+- packageId: com.unity.ide.rider@3.0.28
   testable: 0
   isDirectDependency: 0
-  version: 3.0.27
+  version: 3.0.28
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.ide.rider@3.0.27
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.ide.rider@3.0.28
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -3198,7 +3469,6 @@ m_ResolvedPackages:
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
-  status: 0
   errors: []
   versions:
     all:
@@ -3243,16 +3513,17 @@ m_ResolvedPackages:
     - 3.0.25
     - 3.0.26
     - 3.0.27
+    - 3.0.28
     compatible:
-    - 3.0.27
-    recommended: 3.0.27
+    - 3.0.28
+    recommended: 3.0.28
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
   resolvedDependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   keywords: []
   registry:
     id: main
@@ -3263,97 +3534,39 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638373878680000000
+  datePublishedTicks: 638447139880000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 1d471c19a7f21834ae5b8d0358fd6f9b242c1ee8
+    revision: f4880c72477e9bbd7321c0dbda4428fa10d916df
     path: 
   unityLifecycle:
-    version: 3.0.27
+    version: 3.0.28
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.vscode@1.2.5
-  testable: 0
-  isDirectDependency: 0
-  version: 1.2.5
-  source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.ide.vscode@1.2.5
-  assetPath: Packages/com.unity.ide.vscode
-  name: com.unity.ide.vscode
-  displayName: Visual Studio Code Editor
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: Code editor integration for supporting Visual Studio Code as code
-    editor for unity. Adds support for generating csproj files for intellisense purposes,
-    auto discovery of installations, etc.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.2
-    - 1.0.3
-    - 1.0.7
-    - 1.1.0
-    - 1.1.2
-    - 1.1.3
-    - 1.1.4
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.2.5
-    compatible:
-    - 1.2.5
-    recommended: 1.2.5
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637800255360000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
-    revision: b0740c80bfc2440527c317109f7c3d9100132722
-    path: 
-  unityLifecycle:
-    version: 1.2.5
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"- fix RIDER-103933 \"PlayerSettings.suppressCommonWarnings\"
+    is not supported in Unity 2019.4.40f\n- fix https://github.com/JetBrains/resharper-unity/issues/2431
+    and [RIDER-104221](https://youtrack.jetbrains.com/issue/RIDER-104221)"}'
+  assetStore:
+    productId: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3366,7 +3579,6 @@ m_ResolvedPackages:
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
-  status: 0
   errors: []
   versions:
     all:
@@ -3396,6 +3608,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637232611380000000
   documentationUrl: 
@@ -3413,12 +3627,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.performance.profile-analyzer@1.2.2
   testable: 0
   isDirectDependency: 0
   version: 1.2.2
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -3433,7 +3653,6 @@ m_ResolvedPackages:
     in the Profiler.\n\nMain features: \n\u25AA Multi-frame analysis of a single
     set of Profiler CPU data \n\u25AA Comparison of two multi-frame profile scans
     \n\n"
-  status: 0
   errors: []
   versions:
     all:
@@ -3467,6 +3686,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638108624620000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
@@ -3484,12 +3705,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.test-framework@1.1.33
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n* Fixed exception thrown when removing
+    marker."}'
+  assetStore:
+    productId: 
+- packageId: com.unity.test-framework@1.3.9
   testable: 0
   isDirectDependency: 0
-  version: 1.1.33
+  version: 1.3.9
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.test-framework@1.3.9
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -3498,9 +3726,8 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: asset
+  type: assets
   description: Test framework for running Edit mode and Play mode tests in Unity.
-  status: 0
   errors: []
   versions:
     all:
@@ -3551,41 +3778,34 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
-    - 1.1.33
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.7
-    - 1.3.8
     - 1.3.9
     - 1.4.0
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    recommended: 1.1.33
+    recommended: 1.3.9
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.3
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -3602,29 +3822,43 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637938212700000000
-  documentationUrl: 
+  datePublishedTicks: 638283169810000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework@1.3/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
+    revision: 5c8a1448cee4d7607be0d60dceb66703b0cfe016
     path: 
   unityLifecycle:
-    version: 1.1.33
+    version: 1.3.9
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"- By using the editor command line new argument `-randomOrderSeed
+    x` you can run the tests in a randomized order, where x is an integer different
+    from 0. If a new test is added in the project the random order passing the same
+    seed will be kept, and the new test will be placed in the random list accordigly.\n-
+    Fix for WebGL platform target to close the browser tab when the run is completed.
+    \n- Added TestFileReferences.json to be generated on build step of the player,
+    so can be consumed later by Test runners to enrich data for run part."}'
+  assetStore:
+    productId: 
 - packageId: com.unity.testtools.codecoverage@1.2.5
   testable: 0
   isDirectDependency: 0
   version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3638,7 +3872,6 @@ m_ResolvedPackages:
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
     when there are no automated tests in the project.
-  status: 0
   errors: []
   versions:
     all:
@@ -3684,9 +3917,9 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.3.9
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -3707,6 +3940,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638386640140000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
@@ -3724,12 +3959,21 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.meta.xr.mrutilitykit@60.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixes\n- Fixed failing to generate code coverage
+    for assemblies whose name starts with ''system'' (case [COV-38](https://issuetracker.unity3d.com/issues/code-coverage-fails-to-generate-a-report-when-the-assembly-name-begins-with-the-word-system)).\n-
+    Fixed results xml file not been correctly stored under the EditMode folder if
+    it is written after a domain reload (case [COV-36](https://issuetracker.unity3d.com/issues/coverage-results-xml-file-is-not-categorized-as-editmode-if-it-is-written-after-domain-reload))."}'
+  assetStore:
+    productId: 
+- packageId: com.meta.xr.mrutilitykit@65.0.0
   testable: 0
   isDirectDependency: 0
-  version: 60.0.0
+  version: 65.0.0
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.mrutilitykit@60.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.mrutilitykit@65.0.0
   assetPath: Packages/com.meta.xr.mrutilitykit
   name: com.meta.xr.mrutilitykit
   displayName: Meta MR Utility Kit
@@ -3741,22 +3985,25 @@ m_ResolvedPackages:
   type: 
   description: Helper tools & functions to simplify development with Scene API. Works
     on Mac & PC, without a device attached.
-  status: 0
   errors: []
   versions:
     all:
     - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     compatible:
     - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     recommended: 
     deprecated: []
   dependencies:
   - name: com.meta.xr.sdk.core
-    version: 60.0.0
-  - name: com.meta.xr.sdk.interaction
-    version: 60.0.0
-  - name: com.meta.xr.sdk.interaction.ovr
-    version: 60.0.0
+    version: 65.0.0
   - name: com.unity.ai.navigation
     version: 1.1.4
   - name: com.unity.nuget.newtonsoft-json
@@ -3765,25 +4012,21 @@ m_ResolvedPackages:
     version: 3.0.6
   resolvedDependencies:
   - name: com.meta.xr.sdk.core
-    version: 60.0.0
-  - name: com.meta.xr.sdk.interaction
-    version: 60.0.0
-  - name: com.unity.textmeshpro
-    version: 3.0.6
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.meta.xr.sdk.interaction.ovr
-    version: 60.0.0
+    version: 65.0.0
   - name: com.unity.ai.navigation
-    version: 1.1.5
+    version: 2.0.0
   - name: com.unity.modules.ai
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
+  - name: com.unity.textmeshpro
+    version: 5.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   keywords:
   - Meta
   registry:
@@ -3795,8 +4038,10 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 638385243800000000
+  datePublishedTicks: 638514151120000000
   documentationUrl: https://developer.oculus.com/documentation/unity/
   hasRepository: 0
   repository:
@@ -3812,12 +4057,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.meta.xr.sdk.audio@60.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 272450
+- packageId: com.meta.xr.sdk.audio@65.0.0
   testable: 0
   isDirectDependency: 0
-  version: 60.0.0
+  version: 65.0.0
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.audio@60.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.audio@65.0.0
   assetPath: Packages/com.meta.xr.sdk.audio
   name: com.meta.xr.sdk.audio
   displayName: Meta XR Audio SDK
@@ -3830,7 +4081,6 @@ m_ResolvedPackages:
   description: Comprehensive spatial audio features for immersive applications, including
     a spatial audio renderer with HRTF, ambisonic audio playback, and room acoustics
     for creating immersive environments.
-  status: 0
   errors: []
   versions:
     all:
@@ -3838,21 +4088,27 @@ m_ResolvedPackages:
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     compatible:
     - 56.0.0-preview
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     recommended: 
     deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
   - Oculus
-  - Meta
-  - Audio
   - XR
   - SDK
+  - Meta
+  - Audio
   - Quest
   registry:
     id: main
@@ -3863,8 +4119,10 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 638381956470000000
+  datePublishedTicks: 638514131160000000
   documentationUrl: https://developer.oculus.com/documentation/unity/
   hasRepository: 0
   repository:
@@ -3880,12 +4138,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.meta.xr.sdk.core@60.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 264557
+- packageId: com.meta.xr.sdk.core@65.0.0
   testable: 0
   isDirectDependency: 0
-  version: 60.0.0
+  version: 65.0.0
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.core@60.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.core@65.0.0
   assetPath: Packages/com.meta.xr.sdk.core
   name: com.meta.xr.sdk.core
   displayName: Meta XR Core SDK
@@ -3897,26 +4161,33 @@ m_ResolvedPackages:
   type: 
   description: Meta XR Core SDK package provides the latest features to create immersive
     experiences for Meta XR devices.
-  status: 0
   errors: []
   versions:
     all:
     - 59.0.0
     - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     compatible:
     - 59.0.0
     - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     recommended: 
     deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
-  - Oculus
-  - Utilities
-  - Meta
-  - XR
   - Quest
+  - Utilities
   - SDK
+  - Oculus
+  - XR
+  - Meta
   registry:
     id: main
     name: 
@@ -3926,8 +4197,10 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 638381941530000000
+  datePublishedTicks: 638514124890000000
   documentationUrl: https://developer.oculus.com/documentation/unity/
   hasRepository: 0
   repository:
@@ -3943,12 +4216,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.meta.xr.sdk.haptics@60.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 269169
+- packageId: com.meta.xr.sdk.haptics@65.0.0
   testable: 0
   isDirectDependency: 0
-  version: 60.0.0
+  version: 65.0.0
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.haptics@60.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.haptics@65.0.0
   assetPath: Packages/com.meta.xr.sdk.haptics
   name: com.meta.xr.sdk.haptics
   displayName: Meta XR Haptics SDK
@@ -3960,28 +4239,35 @@ m_ResolvedPackages:
   type: 
   description: SDK for playback of haptics created in Meta Haptics Studio on Quest
     devices
-  status: 0
   errors: []
   versions:
     all:
     - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     compatible:
     - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     recommended: 
     deprecated: []
   dependencies:
   - name: com.meta.xr.sdk.core
-    version: 60.0.0
+    version: 65.0.0
   resolvedDependencies:
   - name: com.meta.xr.sdk.core
-    version: 60.0.0
+    version: 65.0.0
   keywords:
-  - Oculus
-  - Haptics
-  - Quest
-  - Meta
   - SDK
+  - Meta
   - XR
+  - Quest
+  - Haptics
+  - Oculus
   registry:
     id: main
     name: 
@@ -3991,8 +4277,10 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 638385243790000000
+  datePublishedTicks: 638514152050000000
   documentationUrl: https://developer.oculus.com/documentation/unity/
   hasRepository: 0
   repository:
@@ -4008,12 +4296,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.meta.xr.sdk.interaction@60.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 272446
+- packageId: com.meta.xr.sdk.interaction@65.0.0
   testable: 0
   isDirectDependency: 0
-  version: 60.0.0
+  version: 65.0.0
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.interaction@60.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.interaction@65.0.0
   assetPath: Packages/com.meta.xr.sdk.interaction
   name: com.meta.xr.sdk.interaction
   displayName: Meta XR Interaction SDK
@@ -4025,7 +4319,6 @@ m_ResolvedPackages:
   type: 
   description: Provides the core implementations of all the provided interaction
     models along with necessary shaders, materials, and prefabs.
-  status: 0
   errors: []
   versions:
     all:
@@ -4033,11 +4326,19 @@ m_ResolvedPackages:
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     compatible:
     - 56.0.0-preview
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     recommended: 
     deprecated: []
   dependencies:
@@ -4047,20 +4348,20 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.textmeshpro
-    version: 3.0.6
+    version: 5.0.0
   - name: com.unity.ugui
-    version: 1.0.0
+    version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   keywords:
-  - Interaction
-  - Oculus
-  - SDK
-  - Meta
   - Quest
+  - Oculus
+  - Meta
+  - SDK
   - XR
+  - Interaction
   registry:
     id: main
     name: 
@@ -4070,8 +4371,10 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 638381956440000000
+  datePublishedTicks: 638514140150000000
   documentationUrl: https://developer.oculus.com/documentation/unity/unity-isdk-interaction-sdk-overview/
   hasRepository: 0
   repository:
@@ -4087,12 +4390,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.meta.xr.sdk.interaction.ovr@60.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 264559
+- packageId: com.meta.xr.sdk.interaction.ovr@65.0.0
   testable: 0
   isDirectDependency: 0
-  version: 60.0.0
+  version: 65.0.0
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.interaction.ovr@60.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.interaction.ovr@65.0.0
   assetPath: Packages/com.meta.xr.sdk.interaction.ovr
   name: com.meta.xr.sdk.interaction.ovr
   displayName: Meta XR Interaction SDK OVR Integration
@@ -4103,8 +4412,7 @@ m_ResolvedPackages:
   category: 
   type: 
   description: This package allows Interaction SDK to interface with OVRPlugin. Use
-    this package if you are using OVRPlugin or the Utilities package.
-  status: 0
+    this package if you are using OVRPlugin or the Core SDK package.
   errors: []
   versions:
     all:
@@ -4112,39 +4420,47 @@ m_ResolvedPackages:
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     compatible:
     - 56.0.0-preview
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     recommended: 
     deprecated: []
   dependencies:
   - name: com.meta.xr.sdk.core
-    version: 60.0.0
+    version: 65.0.0
   - name: com.meta.xr.sdk.interaction
-    version: 60.0.0
+    version: 65.0.0
   resolvedDependencies:
   - name: com.meta.xr.sdk.core
-    version: 60.0.0
+    version: 65.0.0
   - name: com.meta.xr.sdk.interaction
-    version: 60.0.0
+    version: 65.0.0
   - name: com.unity.textmeshpro
-    version: 3.0.6
+    version: 5.0.0
   - name: com.unity.ugui
-    version: 1.0.0
+    version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   keywords:
-  - Quest
-  - Meta
-  - Oculus
   - SDK
-  - XR
-  - OVR
   - Interaction
+  - Meta
+  - Quest
+  - OVR
+  - XR
+  - Oculus
   registry:
     id: main
     name: 
@@ -4154,8 +4470,10 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 638381959840000000
+  datePublishedTicks: 638514141880000000
   documentationUrl: https://developer.oculus.com/documentation/unity/unity-isdk-interaction-sdk-overview/
   hasRepository: 0
   repository:
@@ -4171,12 +4489,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.meta.xr.sdk.platform@60.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 265014
+- packageId: com.meta.xr.sdk.platform@65.0.0
   testable: 0
   isDirectDependency: 0
-  version: 60.0.0
+  version: 65.0.0
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.platform@60.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.platform@65.0.0
   assetPath: Packages/com.meta.xr.sdk.platform
   name: com.meta.xr.sdk.platform
   displayName: Meta XR Platform SDK
@@ -4189,7 +4513,6 @@ m_ResolvedPackages:
   description: Use the Platform SDK to create social VR applications. Add Matchmaking,
     DLC, In-App Purchases, Cloud Storage, and more to your experience using the individual
     components of the SDK.
-  status: 0
   errors: []
   versions:
     all:
@@ -4197,34 +4520,42 @@ m_ResolvedPackages:
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     compatible:
     - 56.0.0-preview
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     recommended: 
     deprecated: []
   dependencies:
   - name: com.meta.xr.sdk.core
-    version: 60.0.0
+    version: 65.0.0
   - name: com.unity.ugui
     version: 1.0.0
   resolvedDependencies:
   - name: com.meta.xr.sdk.core
-    version: 60.0.0
+    version: 65.0.0
   - name: com.unity.ugui
-    version: 1.0.0
+    version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   keywords:
-  - Meta
-  - Platform
-  - SDK
   - XR
+  - SDK
   - Quest
   - Oculus
+  - Platform
+  - Meta
   registry:
     id: main
     name: 
@@ -4234,8 +4565,10 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 638381990050000000
+  datePublishedTicks: 638514136750000000
   documentationUrl: https://developer.oculus.com/documentation/unity/
   hasRepository: 0
   repository:
@@ -4251,12 +4584,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.meta.xr.sdk.voice@60.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 262366
+- packageId: com.meta.xr.sdk.voice@65.0.0
   testable: 0
   isDirectDependency: 0
-  version: 60.0.0
+  version: 65.0.0
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.voice@60.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.voice@65.0.0
   assetPath: Packages/com.meta.xr.sdk.voice
   name: com.meta.xr.sdk.voice
   displayName: Meta - Voice SDK - Immersive Voice Commands
@@ -4268,7 +4607,6 @@ m_ResolvedPackages:
   type: 
   description: Voice SDK enables natural voice interactions for AR/VR apps, powered
     by Wit.ai.
-  status: 0
   errors: []
   versions:
     all:
@@ -4276,218 +4614,25 @@ m_ResolvedPackages:
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     compatible:
     - 56.0.0-preview
     - 57.0.0-preview
     - 59.0.0
     - 60.0.0
-    recommended: 
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - SDK
-  - Meta
-  - Voice
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 1
-  datePublishedTicks: 638381959730000000
-  documentationUrl: https://developer.oculus.com/documentation/unity/
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.meta.xr.sdk.voice.composer@60.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 60.0.0
-  source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.voice.composer@60.0.0
-  assetPath: Packages/com.meta.xr.sdk.voice.composer
-  name: com.meta.xr.sdk.voice.composer
-  displayName: Meta - Voice SDK - Composer
-  author:
-    name: Meta - Voice SDK
-    email: 
-    url: https://wit.ai
-  category: 
-  type: 
-  description: This package provides support for Composer, a feature in Wit.ai for
-    visually designing interactive conversations in a graph-based dialogue designer.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 56.0.0-preview
-    - 57.0.0-preview
-    - 59.0.0
-    - 60.0.0
-    compatible:
-    - 56.0.0-preview
-    - 57.0.0-preview
-    - 59.0.0
-    - 60.0.0
-    recommended: 
-    deprecated: []
-  dependencies:
-  - name: com.meta.xr.sdk.voice
-    version: 60.0.0
-  resolvedDependencies:
-  - name: com.meta.xr.sdk.voice
-    version: 60.0.0
-  keywords:
-  - Voice
-  - Meta
-  - SDK
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 1
-  datePublishedTicks: 638382002020000000
-  documentationUrl: https://developer.oculus.com/documentation/unity/
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.meta.xr.sdk.voice.dictation@60.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 60.0.0
-  source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.voice.dictation@60.0.0
-  assetPath: Packages/com.meta.xr.sdk.voice.dictation
-  name: com.meta.xr.sdk.voice.dictation
-  displayName: Meta - Voice SDK - Dictation
-  author:
-    name: Meta - Voice SDK
-    email: 
-    url: https://wit.ai
-  category: 
-  type: 
-  description: The Dictation addon for Voice SDK dictation  enables your app to efficiently
-    transcribe speech to text in real time with better recognition results using
-    immersive voice commands.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 56.0.0-preview
-    - 57.0.0-preview
-    - 59.0.0
-    - 60.0.0
-    compatible:
-    - 56.0.0-preview
-    - 57.0.0-preview
-    - 59.0.0
-    - 60.0.0
-    recommended: 
-    deprecated: []
-  dependencies:
-  - name: com.meta.xr.sdk.voice
-    version: 60.0.0
-  resolvedDependencies:
-  - name: com.meta.xr.sdk.voice
-    version: 60.0.0
-  keywords:
-  - SDK
-  - Voice
-  - Meta
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 1
-  datePublishedTicks: 638382002180000000
-  documentationUrl: https://developer.oculus.com/documentation/unity/
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.meta.xr.sdk.voice.telemetry@60.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 60.0.0
-  source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.sdk.voice.telemetry@60.0.0
-  assetPath: Packages/com.meta.xr.sdk.voice.telemetry
-  name: com.meta.xr.sdk.voice.telemetry
-  displayName: Meta - Voice SDK - Telemetry
-  author:
-    name: Meta - Voice SDK
-    email: 
-    url: https://wit.ai
-  category: 
-  type: 
-  description: The telemetry package provides insights into the operation of the
-    VoiceSDK and its related packages so that we can improve the experience for everyone.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 56.0.0-preview
-    - 57.0.0-preview
-    - 59.0.0
-    - 60.0.0
-    compatible:
-    - 56.0.0-preview
-    - 57.0.0-preview
-    - 59.0.0
-    - 60.0.0
+    - 63.0.0
+    - 64.0.0
+    - 65.0.0
     recommended: 
     deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
   - Meta
+  - Voice
+  - SDK
   registry:
     id: main
     name: 
@@ -4497,8 +4642,10 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 638381959610000000
+  datePublishedTicks: 638514155320000000
   documentationUrl: https://developer.oculus.com/documentation/unity/
   hasRepository: 0
   repository:
@@ -4514,12 +4661,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.meta.xr.simulator@60.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 264555
+- packageId: com.meta.xr.simulator@65.0.0
   testable: 0
   isDirectDependency: 0
-  version: 60.0.0
+  version: 65.0.0
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.simulator@60.0.0
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.meta.xr.simulator@65.0.0
   assetPath: Packages/com.meta.xr.simulator
   name: com.meta.xr.simulator
   displayName: Meta XR Simulator
@@ -4531,25 +4684,30 @@ m_ResolvedPackages:
   type: 
   description: Meta XR Simulator allows developers to preview their VR changes without
     needing a physical device.
-  status: 0
   errors: []
   versions:
     all:
     - 57.0.0
     - 59.0.0
     - 60.0.0
+    - 62.0.0
+    - 64.0.0
+    - 65.0.0
     compatible:
     - 57.0.0
     - 59.0.0
     - 60.0.0
+    - 62.0.0
+    - 64.0.0
+    - 65.0.0
     recommended: 
     deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
+  - Oculus
   - XrSim
   - Meta
-  - Oculus
   - Quest
   registry:
     id: main
@@ -4560,8 +4718,10 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 2
   isAssetStorePackage: 1
-  datePublishedTicks: 638381959440000000
+  datePublishedTicks: 638514813670000000
   documentationUrl: https://developer.oculus.com/documentation/unity/
   hasRepository: 0
   repository:
@@ -4577,12 +4737,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 266732
 - packageId: com.unity.xr.legacyinputhelpers@2.1.10
   testable: 0
   isDirectDependency: 0
   version: 2.1.10
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -4598,7 +4764,6 @@ m_ResolvedPackages:
     track input devices, the XR Bindings Seeding Tool adds a menu item under the
     'Assets' menu which populates the Input Asset with Unity's crossplatform Input
     Bindings
-  status: 0
   errors: []
   versions:
     all:
@@ -4662,6 +4827,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637958908030000000
   documentationUrl: 
@@ -4679,12 +4846,21 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"Fixed a build error about a mismatch of the serialized
+    fields between Editor and Player due to `m_PoseProviderComponent`. That field
+    and its type is now always included, not just when `ENABLE_AR` or `ENABLE_VR`
+    are defined."}'
+  assetStore:
+    productId: 
 - packageId: com.unity.settings-manager@2.0.1
   testable: 0
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.settings-manager@2.0.1
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.settings-manager@2.0.1
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4696,7 +4872,6 @@ m_ResolvedPackages:
   type: asset
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
-  status: 0
   errors: []
   versions:
     all:
@@ -4724,6 +4899,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637744099390000000
   documentationUrl: 
@@ -4741,12 +4918,18 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ext.nunit@1.0.6
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+- packageId: com.unity.ext.nunit@2.0.5
   testable: 0
   isDirectDependency: 0
-  version: 1.0.6
+  version: 2.0.5
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.ext.nunit@2.0.5
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4755,10 +4938,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: asset
-  description: Custom version of the nunit package build to work with Unity. Used
-    by the Unity Test Framework.
-  status: 0
+  type: assets
+  description: A custom version of NUnit used by Unity Test Framework. Based on NUnit
+    version 3.5 and works with all platforms, il2cpp and Mono AOT.
   errors: []
   versions:
     all:
@@ -4773,12 +4955,8 @@ m_ResolvedPackages:
     - 2.0.4
     - 2.0.5
     compatible:
-    - 1.0.6
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
     - 2.0.5
-    recommended: 1.0.6
+    recommended: 2.0.5
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4795,29 +4973,203 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637429759280000000
-  documentationUrl: 
+  datePublishedTicks: 638236642220000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
-    revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
+    revision: 469fe0d46bfc26fbb32a53885ca4d12abcdae4ae
     path: 
   unityLifecycle:
-    version: 1.0.6
+    version: 2.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ai.navigation@1.1.5
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"- Fixing bug for InstanceID as struct changes"}'
+  assetStore:
+    productId: 
+- packageId: com.unity.textmeshpro@5.0.0
   testable: 0
   isDirectDependency: 0
-  version: 1.1.5
+  version: 5.0.0
+  source: 2
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.textmeshpro@5.0.0
+  assetPath: Packages/com.unity.textmeshpro
+  name: com.unity.textmeshpro
+  displayName: TextMeshPro
+  author:
+    name: 
+    email: 
+    url: 
+  category: Text Rendering
+  type: shim
+  description: This package is no longer supported. TextMeshPro functionalities are
+    now included in the com.unity.ugui package. To continue using them, consider
+    adding it to your project dependencies.
+  errors: []
+  versions:
+    all:
+    - 0.1.2
+    - 1.0.21
+    - 1.0.23
+    - 1.0.25
+    - 1.0.26
+    - 1.1.0
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.3.0-preview
+    - 1.3.0
+    - 1.4.0-preview.1b
+    - 1.4.0-preview.2a
+    - 1.4.0-preview.3a
+    - 1.4.0
+    - 1.4.1-preview.1
+    - 1.4.1
+    - 1.5.0-preview.1
+    - 1.5.0-preview.2
+    - 1.5.0-preview.3
+    - 1.5.0-preview.4
+    - 1.5.0-preview.5
+    - 1.5.0-preview.6
+    - 1.5.0-preview.7
+    - 1.5.0-preview.8
+    - 1.5.0-preview.10
+    - 1.5.0-preview.11
+    - 1.5.0-preview.12
+    - 1.5.0-preview.13
+    - 1.5.0-preview.14
+    - 1.5.0
+    - 1.5.1
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6
+    - 1.6.0-preview.1
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.1
+    - 2.1.0-preview.1
+    - 2.1.0-preview.2
+    - 2.1.0-preview.3
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0-preview.7
+    - 2.1.0-preview.8
+    - 2.1.0-preview.10
+    - 2.1.0-preview.11
+    - 2.1.0-preview.12
+    - 2.1.0-preview.13
+    - 2.1.0-preview.14
+    - 2.1.0
+    - 2.1.1
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.2.0-preview.1
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 3.0.0-preview.1
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0-preview.5
+    - 3.0.0-preview.7
+    - 3.0.0-preview.8
+    - 3.0.0-preview.10
+    - 3.0.0-preview.11
+    - 3.0.0-preview.12
+    - 3.0.0-preview.13
+    - 3.0.0-preview.14
+    - 3.0.0
+    - 3.0.1
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.7
+    - 3.0.8
+    - 3.0.9
+    - 3.2.0-pre.1
+    - 3.2.0-pre.2
+    - 3.2.0-pre.3
+    - 3.2.0-pre.4
+    - 3.2.0-pre.5
+    - 3.2.0-pre.6
+    - 3.2.0-pre.7
+    - 3.2.0-pre.8
+    - 3.2.0-pre.9
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    - 5.0.0
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 1
+    deprecationMessage: This package is no longer supported. TextMeshPro functionalities
+      are now included in the com.unity.ugui package. To continue using them, consider
+      adding it to your project dependencies.
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+- packageId: com.unity.ai.navigation@2.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.0
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.ai.navigation@1.1.5
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.ai.navigation@2.0.0
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -4829,7 +5181,6 @@ m_ResolvedPackages:
   type: assets
   description: High-level NavMesh components for building and using NavMeshes at
     runtime and at edit time.
-  status: 0
   errors: []
   versions:
     all:
@@ -4847,8 +5198,8 @@ m_ResolvedPackages:
     - 2.0.0-pre.4
     - 2.0.0
     compatible:
-    - 1.1.5
-    recommended: 1.1.5
+    - 2.0.0
+    recommended: 2.0.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -4866,29 +5217,39 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638319373850000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
+  datePublishedTicks: 638333060450000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: a905e1ab41c8afae1a75688ceb3b4dfa1686ea75
+    revision: 365db7071a1efdbf9fc337dd1c0de02f909cd685
     path: 
   unityLifecycle:
-    version: 1.1.5
+    version: 2.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n* When the \"Auto Update Position\" option
+    of NavMeshLink is enabled, the link now correctly updates the connection in the
+    next frame after any of the link''s ends change their world position."}'
+  assetStore:
+    productId: 
 - packageId: com.unity.nuget.newtonsoft-json@3.2.1
   testable: 0
   isDirectDependency: 0
   version: 3.2.1
   source: 1
-  resolvedPath: C:\Users\julia\OneDrive\Dokumenty\GitHub\Virtulingo\Virtulingo\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
+  resolvedPath: C:\Users\julia\Virtulingo\Virtulingo\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -4908,7 +5269,6 @@ m_ResolvedPackages:
 
     To avoid assembly clashes, please use this
     package if you intend to use Newtonsoft Json.'
-  status: 0
   errors: []
   versions:
     all:
@@ -4944,6 +5304,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638186318800000000
   documentationUrl: 
@@ -4961,3 +5323,10 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"* Fixed Newtonsoft DLL when compiling with netstandard
+    2.0."}'
+  assetStore:
+    productId: 
