@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6310341-144c-4f15-9ee8-1686db0a9115" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Virtulingo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Virtulingo/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a6310341-144c-4f15-9ee8-1686db0a9115" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +99,7 @@
       <workItem from="1705974316856" duration="6000" />
       <workItem from="1716824785042" duration="435000" />
       <workItem from="1716825424178" duration="757000" />
-      <workItem from="1717421486122" duration="1901000" />
+      <workItem from="1717421486122" duration="2587000" />
     </task>
     <servers />
   </component>
