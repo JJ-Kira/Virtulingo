@@ -1,11 +1,41 @@
 using TMPro;
+using Unity.VisualScripting;
+using UnityEngine;
 
 namespace Pistol_Vocab
 {
-    public class Answer
+    [RequireComponent(typeof(Collider))] 
+    public class Answer: MonoBehaviour
     {
         public string answerText;
         public bool isCorrect;
         public TextMeshProUGUI textPlaceholder;
+        
+        void Start()
+        {
+            // Ensure the target has a Collider
+            Collider collider = gameObject.GetComponent<Collider>();
+            if (collider == null)
+            {
+                gameObject.AddComponent<BoxCollider>(); // Or another collider type
+            }
+        }
+        
+        void OnCollisionEnter(Collision collision)
+        {
+            if (collision.gameObject.CompareTag("Projectile"))
+            {
+                Destroy(collision.gameObject);  // Destroy the projectile
+                if (isCorrect)
+                {
+                    // give points
+                }
+                else
+                {
+                    // note wrong answer and/or subtract points
+                    Destroy(gameObject);
+                }
+            }
+        }
     }
 }

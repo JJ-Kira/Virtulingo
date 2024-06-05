@@ -2,6 +2,8 @@ using UnityEngine;
 
 namespace Pistol_Vocab
 {
+    [RequireComponent(typeof(Rigidbody))] 
+    [RequireComponent(typeof(Collider))] 
     public class Rubber : MonoBehaviour
     {
         void OnCollisionEnter(Collision collision)

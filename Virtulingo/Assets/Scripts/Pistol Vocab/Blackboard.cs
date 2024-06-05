@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 namespace Pistol_Vocab
@@ -6,6 +7,9 @@ namespace Pistol_Vocab
     {
         public Question[] Questions;
         private int currentQuestionIndex = 0;
+
+        [SerializeField] private TextMeshProUGUI question;
+        [SerializeField] private GameObject answerPrefab;
 
         public void DisplayQuestion()
         {
