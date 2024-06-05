@@ -2,19 +2,21 @@ using UnityEngine;
 
 namespace Pistol_Vocab
 {
-    public class GameManager : MonoBehaviour
+    public class PVManager : MonoBehaviour
     {
         public Player player;
         public Blackboard blackboard;
-
+        
         void Start()
         {
-            blackboard.DisplayQuestion();
+            DrawAndDisplayNewQuestion();
         }
 
-        void Update()
+        public void DrawAndDisplayNewQuestion()
         {
-            // Here you can manage the game state, check for game over conditions, etc.
+            //TODO
+            Question question = new Question();
+            blackboard.DisplayQuestion(question);
         }
     }
 }

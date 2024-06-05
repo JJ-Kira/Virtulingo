@@ -3,45 +3,42 @@ using UnityEngine;
 
 namespace Pistol_Vocab
 {
+    [RequireComponent(typeof(Canvas))]
     public class Blackboard : MonoBehaviour
     {
-        public Question[] Questions;
-        private int currentQuestionIndex = 0;
+        private Question currentQuestion;
 
         [SerializeField] private TextMeshProUGUI question;
         [SerializeField] private GameObject answerPrefab;
 
-        public void DisplayQuestion()
+        public void DisplayQuestion(Question questionToDisplay)
         {
-            if (currentQuestionIndex < Questions.Length)
+            currentQuestion = questionToDisplay;
+            question.text = currentQuestion.QuestionText;
+            Debug.Log("Question: " + currentQuestion.QuestionText);
+                
+            RectTransform canvasRectTransform = GetComponent<RectTransform>();
+            // Calculate the spacing between each text element
+            float verticalSpacing = canvasRectTransform.rect.height / (currentQuestion.Answers.Length + 1);
+            float horizontalSpacing = canvasRectTransform.rect.width / (currentQuestion.Answers.Length + 1);
+            for (int i = 0; i < currentQuestion.Answers.Length; i++)
             {
-                // Code to display question and answers on the blackboard
-                Question question = Questions[currentQuestionIndex];
-                Debug.Log("Question: " + question.QuestionText);
-                for (int i = 0; i < question.Answers.Length; i++)
-                {
-                    Debug.Log("Answer " + (i + 1) + ": " + question.Answers[i].answerText);
-                }
-            }
-            else
-            {
-                Debug.Log("No more questions.");
+                var currentAnswer = Instantiate(answerPrefab, transform);
+                var answerTransform = currentAnswer.GetComponent<RectTransform>();
+                float xPos = (i + 1) * horizontalSpacing - canvasRectTransform.rect.width / 2;
+                float yPos = -(i + 1) * verticalSpacing + canvasRectTransform.rect.height / 2;
+                answerTransform.anchoredPosition = new Vector2(xPos, yPos);
+                //answerTransform.sizeDelta = new Vector2(horizontalSpacing, answerTransform.sizeDelta.y);
+                
+                TextMeshProUGUI textComponent = currentAnswer.GetComponent<TextMeshProUGUI>();
+                textComponent.text = currentQuestion.Answers[i].answerText;
+                Debug.Log("Answer " + (i + 1) + ": " + currentQuestion.Answers[i].answerText);
             }
         }
 
-        public void CheckAnswer(int answerIndex)
+        public void CheckAnswer()
         {
-            if (Questions[currentQuestionIndex].Answers[answerIndex].isCorrect)
-            {
-                FindObjectOfType<Player>().AddScore(10);  // Adjust the score increment as necessary
-                Debug.Log("Correct Answer!");
-            }
-            else
-            {
-                Debug.Log("Wrong Answer!");
-            }
-            currentQuestionIndex++;
-            DisplayQuestion();
+            //TODO
         }
     }
 }

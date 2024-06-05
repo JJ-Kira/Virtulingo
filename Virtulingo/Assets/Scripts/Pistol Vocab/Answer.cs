@@ -23,6 +23,7 @@ namespace Pistol_Vocab
         
         void OnCollisionEnter(Collision collision)
         {
+            //TODO
             if (collision.gameObject.CompareTag("Projectile"))
             {
                 Destroy(collision.gameObject);  // Destroy the projectile
