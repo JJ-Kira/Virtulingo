@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6310341-144c-4f15-9ee8-1686db0a9115" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/KGBrokenVesselsSketch SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/KGBrokenVesselsSketch SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Virtulingo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Virtulingo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pistol Whip/BlackboardCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pistol Whip/BlackboardCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Pistol Vocab.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Pistol Vocab.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Answer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Answer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Blackboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Blackboard.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/PVManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/PVManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Rubber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Rubber.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +108,7 @@
       <workItem from="1717421486122" duration="3782000" />
       <workItem from="1717588282852" duration="1519000" />
       <workItem from="1717618479579" duration="1674000" />
+      <workItem from="1717706091695" duration="669000" />
     </task>
     <servers />
   </component>
