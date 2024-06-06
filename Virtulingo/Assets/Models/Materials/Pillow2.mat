@@ -27,10 +27,10 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _Color: {r: 1, g: 0.42830187, b: 0.8216573, a: 1}
+    - _Color: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &4921866786200717092
+--- !u!114 &4031013164876028468
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

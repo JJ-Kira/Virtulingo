@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5920f49e3340fcc47957e836d8c216fd
+guid: 7dede1957eaa1c44ebb1e68d6b58f2f9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,18 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Beige carpet brown
-    second: {fileID: 2100000, guid: be12007a33b6bdd40974cf3a70eff0ac, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: 42fcb0b51ffb3d04186653ab32367262, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wood.002
+      name: Material.007
     second: {fileID: 2100000, guid: 7351c54b73eff2e4581bbdb0284bdaea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 0919a2c31c4067d419548e1381f23cec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: eb7740a0ae175064fa7b5f89dc3520b0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

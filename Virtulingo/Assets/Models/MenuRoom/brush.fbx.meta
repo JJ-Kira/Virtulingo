@@ -1,9 +1,24 @@
 fileFormatVersion: 2
-guid: dcc318722c8e6a54db019cef7a160e74
+guid: 2c90fe0d0c7f9014f8f14e6520fce82f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beige carpet brown.001
+    second: {fileID: 2100000, guid: 9fe28d9ef10d72645a14d5caf19e5351, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.011
+    second: {fileID: 2100000, guid: 42fcb0b51ffb3d04186653ab32367262, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood.001
+    second: {fileID: 2100000, guid: 7351c54b73eff2e4581bbdb0284bdaea, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
