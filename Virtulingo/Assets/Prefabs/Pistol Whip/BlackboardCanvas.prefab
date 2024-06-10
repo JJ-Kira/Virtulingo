@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2261136118094959680}
   - component: {fileID: 255910178906694359}
   - component: {fileID: 4219432638742267300}
-  - component: {fileID: 3510890473337976576}
+  - component: {fileID: 8662229628251079704}
   m_Layer: 5
   m_Name: BlackboardCanvas
   m_TagString: Untagged
@@ -159,7 +159,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   pointer: {fileID: 0}
   sortOrder: 0
---- !u!114 &3510890473337976576
+--- !u!114 &8662229628251079704
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,9 +171,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba748d3e7e17f9045a83e9464e21059d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 53929302298257447}
-  pistolWhip: {fileID: 4761826442199357538}
-  memoMingle: {fileID: 2926693877260801203}
+  contentGOs:
+  - {fileID: 3160702019381462166}
+  - {fileID: 5670152966846200405}
+  - {fileID: 5570177023218348896}
 --- !u!1001 &445848340285416666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -266,19 +267,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5729101360013931469, guid: 2bd9cf57598bd06408e63e3c3aa57203, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 676416000886140502, guid: 44b4169bce9b9864cbffe9cb344988b2, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bd9cf57598bd06408e63e3c3aa57203, type: 3}
---- !u!225 &4761826442199357538 stripped
-CanvasGroup:
-  m_CorrespondingSourceObject: {fileID: 4916417175934352568, guid: 2bd9cf57598bd06408e63e3c3aa57203, type: 3}
-  m_PrefabInstance: {fileID: 445848340285416666}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &5235671300543345283 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5658544211226465881, guid: 2bd9cf57598bd06408e63e3c3aa57203, type: 3}
+  m_PrefabInstance: {fileID: 445848340285416666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5670152966846200405 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5233066909868908175, guid: 2bd9cf57598bd06408e63e3c3aa57203, type: 3}
   m_PrefabInstance: {fileID: 445848340285416666}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4230485676240853494
@@ -299,6 +304,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1308296644424764741, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
       propertyPath: m_BlocksRaycasts
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6203178528477654317, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6203178528477654317, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6203178528477654317, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
+      propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7670086187561859001, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
@@ -390,9 +407,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
---- !u!225 &2926693877260801203 stripped
-CanvasGroup:
-  m_CorrespondingSourceObject: {fileID: 1308296644424764741, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
+--- !u!1 &5570177023218348896 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8644811438051699350, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
   m_PrefabInstance: {fileID: 4230485676240853494}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &5819823833480687183 stripped
@@ -509,9 +526,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72d29dd9cabed304c9b21d118b17e2f8, type: 3}
---- !u!225 &53929302298257447 stripped
-CanvasGroup:
-  m_CorrespondingSourceObject: {fileID: 7118522548842591969, guid: 72d29dd9cabed304c9b21d118b17e2f8, type: 3}
+--- !u!1 &3160702019381462166 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5307662985952598608, guid: 72d29dd9cabed304c9b21d118b17e2f8, type: 3}
   m_PrefabInstance: {fileID: 7094729485943447238}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &6891230338413895211 stripped

@@ -5,11 +5,10 @@ using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
 using DG.Tweening;
-using UnityEngine.Serialization;
 
 namespace Pistol_Vocab
 {
-    public class PWManager : MonoBehaviour
+    public class PWManager : MonoBehaviour, IContent
     {
         private Question currentQuestion;
 
@@ -26,11 +25,9 @@ namespace Pistol_Vocab
         private Transform gunTip;
         [SerializeField]
         private float projectileSpeed = 10f;
-        
-        void Start()
+
+        private void Awake()
         {
-            DrawAndDisplayNewQuestion();
-            
             questions.Add(new Question("He realised that he had to .... their trust.", new string[4] {"win", "catch", "achieve", "receive"}));
             questions.Add(new Question(".... to popular belief.", new string[4] {"Contrary", "Opposite", "Opposed", "Contradictory"}));
             questions.Add(new Question("He contends that bears do not .... as much for fruit as previously supposed.", new string[4] {"care", "bother", "desire", "hope"}));
@@ -39,9 +36,24 @@ namespace Pistol_Vocab
             questions.Add(new Question("It is important to ... between a fear and a phobia.", new string[4] {"distinguish", "choose", "select", "pick"}));
         }
 
+        void Start()
+        {
+            //TODO: activate the gun
+            DrawAndDisplayNewQuestion();
+        }
+
+        public void Disable(Action onComplete)
+        {
+            //TODO: deactivate the gun
+            pwCanvasGroup.DOFade(0f, 1.0f).onComplete = () => {
+                gameObject.SetActive(false);
+                onComplete?.Invoke();
+            };
+        }
+
         private void DrawAndDisplayNewQuestion()
         {
-            //TODO: get new question from db
+            //TODO (later): get new question from db
             DisplayQuestion(questions.PickRandom());
         }
 
