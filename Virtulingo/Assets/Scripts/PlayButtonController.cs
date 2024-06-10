@@ -30,7 +30,7 @@ public class PlayButtonController : MonoBehaviour
     public void StartPistolVocab()
     {
         animating = false;
-        blackboard.ChangeContent(ActiveContent.PistolWhip);
+        blackboard.ChangeContent(ActiveContent.PistolVocab);
     }
 
     public void StopPistolVocab()
