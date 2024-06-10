@@ -5,10 +5,11 @@ using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.XR;
 
 namespace Pistol_Vocab
 {
-    public class PWManager : MonoBehaviour, IContent
+    public class PistolWhip : MonoBehaviour, IContent
     {
         private Question currentQuestion;
 
@@ -17,12 +18,13 @@ namespace Pistol_Vocab
         [SerializeField] private CanvasGroup pwCanvasGroup;
 
         [CanBeNull] private List<Question> questions;
+        private InputDevice leftController, rightController;
         
         public int score = 0;
         [SerializeField]
         private GameObject projectilePrefab;
         [SerializeField]
-        private Transform gunTip;
+        private Transform gunTipLeft, gunTipRight;
         [SerializeField]
         private float projectileSpeed = 10f;
 
@@ -40,6 +42,26 @@ namespace Pistol_Vocab
         {
             //TODO: activate the gun
             DrawAndDisplayNewQuestion();
+            
+            var controllers = new List<UnityEngine.XR.InputDevice>();
+            var desiredCharacteristics = UnityEngine.XR.InputDeviceCharacteristics.HeldInHand | UnityEngine.XR.InputDeviceCharacteristics.Left | UnityEngine.XR.InputDeviceCharacteristics.Controller;
+            InputDevices.GetDevicesWithCharacteristics(desiredCharacteristics, controllers);
+            foreach (var device in controllers)
+            {
+                Debug.Log(string.Format("Device name '{0}' has characteristics '{1}'", device.name, device.characteristics.ToString()));
+            }
+            if (controllers.Count > 0)
+                leftController = controllers.First();
+            
+            controllers = new List<UnityEngine.XR.InputDevice>();
+            desiredCharacteristics = UnityEngine.XR.InputDeviceCharacteristics.HeldInHand | UnityEngine.XR.InputDeviceCharacteristics.Right | UnityEngine.XR.InputDeviceCharacteristics.Controller;
+            InputDevices.GetDevicesWithCharacteristics(desiredCharacteristics, controllers);
+            foreach (var device in controllers)
+            {
+                Debug.Log(string.Format("Device name '{0}' has characteristics '{1}'", device.name, device.characteristics.ToString()));
+            }
+            if (controllers.Count > 0)
+                rightController = controllers.First();
         }
 
         public void Disable(Action onComplete)
@@ -108,14 +130,24 @@ namespace Pistol_Vocab
         
         void Update()
         {
-            //TODO: check for trigger
-            if (Input.GetButtonDown("Fire1"))
+            if (leftController.TryGetFeatureValue(CommonUsages.triggerButton,
+                    out var triggerValue)
+                && triggerValue)
             {
-                Shoot();
+                Debug.Log("Trigger button is pressed");
+                Shoot(gunTipLeft);
+            }
+            
+            if (rightController.TryGetFeatureValue(CommonUsages.triggerButton,
+                    out triggerValue)
+                && triggerValue)
+            {
+                Debug.Log("Trigger button is pressed");
+                Shoot(gunTipRight);
             }
         }
 
-        void Shoot()
+        void Shoot(Transform gunTip)
         {
             GameObject projectile = Instantiate(projectilePrefab, gunTip.position, gunTip.rotation);
             Rigidbody rb = projectile.GetComponent<Rigidbody>();
