@@ -89,7 +89,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &2261136118094959680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,9 +183,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2766748732647913729}
     m_Modifications:
+    - target: {fileID: 4916417175934352568, guid: 2bd9cf57598bd06408e63e3c3aa57203, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5233066909868908175, guid: 2bd9cf57598bd06408e63e3c3aa57203, type: 3}
       propertyPath: m_Name
       value: PistolWhip
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233066909868908175, guid: 2bd9cf57598bd06408e63e3c3aa57203, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5658544211226465881, guid: 2bd9cf57598bd06408e63e3c3aa57203, type: 3}
       propertyPath: m_Pivot.x
@@ -300,23 +308,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1308296644424764741, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1308296644424764741, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
       propertyPath: m_BlocksRaycasts
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6203178528477654317, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6203178528477654317, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6203178528477654317, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -881
       objectReference: {fileID: 0}
     - target: {fileID: 7670086187561859001, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
       propertyPath: m_Pivot.x
@@ -401,6 +409,10 @@ PrefabInstance:
     - target: {fileID: 8644811438051699350, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
       propertyPath: m_Name
       value: MemoMingle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8644811438051699350, guid: f64676ba2c42b444aa25621921dfa935, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -509,17 +521,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 6213530500918139400, guid: 72d29dd9cabed304c9b21d118b17e2f8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7118522548842591969, guid: 72d29dd9cabed304c9b21d118b17e2f8, type: 3}
       propertyPath: m_Alpha
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7118522548842591969, guid: 72d29dd9cabed304c9b21d118b17e2f8, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7118522548842591969, guid: 72d29dd9cabed304c9b21d118b17e2f8, type: 3}
       propertyPath: m_BlocksRaycasts
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
