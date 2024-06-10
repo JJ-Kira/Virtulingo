@@ -5,28 +5,28 @@ using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.Serialization;
 using UnityEngine.XR;
 
 namespace Pistol_Vocab
 {
-    public class PistolWhip : MonoBehaviour, IContent
+    public class PistolVocab : MonoBehaviour, IContent
     {
         private Question currentQuestion;
 
         [SerializeField] private TextMeshProUGUI question, congrats;
-        [SerializeField] private GameObject answerPrefab;
-        [SerializeField] private CanvasGroup pwCanvasGroup;
+        [SerializeField] private GameObject answerPrefab, gunPrefab;
+        [SerializeField] private CanvasGroup pvCanvasGroup;
 
-        [CanBeNull] private List<Question> questions;
-        private InputDevice leftController, rightController;
+        [SerializeField] private OVRControllerHelper[] ovrControllerHelpers;
+        private List<GameObject> controllersChanged = new List<GameObject>();
+
+        private List<Question> questions = new List<Question>();
         
         public int score = 0;
-        [SerializeField]
-        private GameObject projectilePrefab;
-        [SerializeField]
-        private Transform gunTipLeft, gunTipRight;
-        [SerializeField]
-        private float projectileSpeed = 10f;
+        [SerializeField] private GameObject projectilePrefab;
+        [SerializeField] private Transform gunTipLeft, gunTipRight;
+        [SerializeField] private float projectileSpeed = 10.0f;
 
         private void Awake()
         {
@@ -40,34 +40,39 @@ namespace Pistol_Vocab
 
         void Start()
         {
-            //TODO: activate the gun
             DrawAndDisplayNewQuestion();
-            
-            var controllers = new List<UnityEngine.XR.InputDevice>();
-            var desiredCharacteristics = UnityEngine.XR.InputDeviceCharacteristics.HeldInHand | UnityEngine.XR.InputDeviceCharacteristics.Left | UnityEngine.XR.InputDeviceCharacteristics.Controller;
-            InputDevices.GetDevicesWithCharacteristics(desiredCharacteristics, controllers);
-            foreach (var device in controllers)
+
+            if (controllersChanged.Count == 0)
             {
-                Debug.Log(string.Format("Device name '{0}' has characteristics '{1}'", device.name, device.characteristics.ToString()));
+                foreach (var ovrControllerHelper in ovrControllerHelpers)
+                {
+                    controllersChanged.Add(ovrControllerHelper.m_modelOculusTouchQuest2LeftController);
+                    controllersChanged.Add(ovrControllerHelper.m_modelOculusTouchQuest2RightController);
+                    controllersChanged.Add(ovrControllerHelper.m_modelMetaTouchProLeftController);
+                    controllersChanged.Add(ovrControllerHelper.m_modelMetaTouchProRightController);
+                }
             }
-            if (controllers.Count > 0)
-                leftController = controllers.First();
-            
-            controllers = new List<UnityEngine.XR.InputDevice>();
-            desiredCharacteristics = UnityEngine.XR.InputDeviceCharacteristics.HeldInHand | UnityEngine.XR.InputDeviceCharacteristics.Right | UnityEngine.XR.InputDeviceCharacteristics.Controller;
-            InputDevices.GetDevicesWithCharacteristics(desiredCharacteristics, controllers);
-            foreach (var device in controllers)
+
+            foreach (var ovrControllerHelper in ovrControllerHelpers)
             {
-                Debug.Log(string.Format("Device name '{0}' has characteristics '{1}'", device.name, device.characteristics.ToString()));
+                ovrControllerHelper.m_modelOculusTouchQuest2LeftController = gunPrefab;
+                ovrControllerHelper.m_modelOculusTouchQuest2RightController = gunPrefab;
+                ovrControllerHelper.m_modelMetaTouchProLeftController = gunPrefab;
+                ovrControllerHelper.m_modelMetaTouchProRightController = gunPrefab;
             }
-            if (controllers.Count > 0)
-                rightController = controllers.First();
         }
 
         public void Disable(Action onComplete)
         {
-            //TODO: deactivate the gun
-            pwCanvasGroup.DOFade(0f, 1.0f).onComplete = () => {
+            foreach (var ovrControllerHelper in ovrControllerHelpers)
+            {
+                ovrControllerHelper.m_modelOculusTouchQuest2LeftController = controllersChanged[0];
+                ovrControllerHelper.m_modelOculusTouchQuest2RightController = controllersChanged[1];
+                ovrControllerHelper.m_modelMetaTouchProLeftController = controllersChanged[2];
+                ovrControllerHelper.m_modelMetaTouchProRightController = controllersChanged[3];
+            }
+            
+            pvCanvasGroup.DOFade(0f, 1.0f).onComplete = () => {
                 gameObject.SetActive(false);
                 onComplete?.Invoke();
             };
@@ -82,7 +87,7 @@ namespace Pistol_Vocab
         private void DisplayQuestion(Question questionToDisplay)
         {
             // tidy existing content
-            pwCanvasGroup.DOFade(0f, 0.75f).onComplete = () =>
+            pvCanvasGroup.DOFade(0f, 0.75f).onComplete = () =>
             {
                 congrats.alpha = 0f;
                 foreach (Transform child in transform)
@@ -96,7 +101,7 @@ namespace Pistol_Vocab
                 currentQuestion = questionToDisplay;
                 question.text = currentQuestion.QuestionText;
                 Debug.Log("Question: " + currentQuestion.QuestionText);
-                pwCanvasGroup.DOFade(1.0f, 0.75f);
+                pvCanvasGroup.DOFade(1.0f, 0.75f);
                 
                 RectTransform canvasRectTransform = GetComponent<RectTransform>();
                 // Calculate the spacing between each text element
@@ -130,21 +135,15 @@ namespace Pistol_Vocab
         
         void Update()
         {
-            if (leftController.TryGetFeatureValue(CommonUsages.triggerButton,
-                    out var triggerValue)
-                && triggerValue)
-            {
-                Debug.Log("Trigger button is pressed");
-                Shoot(gunTipLeft);
-            }
-            
-            if (rightController.TryGetFeatureValue(CommonUsages.triggerButton,
-                    out triggerValue)
-                && triggerValue)
-            {
-                Debug.Log("Trigger button is pressed");
+            OVRInput.Update();
+        }
+
+        private void LateUpdate()
+        {
+            if (OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))
                 Shoot(gunTipRight);
-            }
+            if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+                Shoot(gunTipLeft);
         }
 
         void Shoot(Transform gunTip)

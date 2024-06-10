@@ -1,23 +1,26 @@
 using System;
+using System.Linq;
 using UnityEngine;
 
 [RequireComponent(typeof(Canvas))]
 public class Blackboard : MonoBehaviour
 {
     [SerializeField] private GameObject[] contentGOs;
-    private IContent[] contents;
+    private IContent[] contents = new IContent[3];
     private ActiveContent currentlyActiveContent = ActiveContent.Menu;
 
     private void Start()
     {
         for (int i = 0; i < contentGOs.Length; i++)
         {
-            contents[i] = contentGOs[i].GetComponent<IContent>();
+            contents[i] = contentGOs[i].GetComponent(typeof(IContent)) as IContent;
             if (contents[i] == null)
             {
                 Debug.LogError("GameObject " + contentGOs[i].name + " does not have a component that implements IContent.");
             }
         }
+        contentGOs[(int) ActiveContent.PistolVocab].SetActive(false);
+        contentGOs[(int) ActiveContent.MemoMingle].SetActive(false);
         contentGOs = null;
     }
     
@@ -37,7 +40,7 @@ public class Blackboard : MonoBehaviour
 public enum ActiveContent
 {
     Menu,
-    PistolWhip,
+    PistolVocab,
     MemoMingle
 }
 

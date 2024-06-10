@@ -9,7 +9,7 @@ namespace Pistol_Vocab
     public class Answer: MonoBehaviour
     {
         public bool isCorrect;
-        [HideInInspector] public PistolWhip pvm;
+        [HideInInspector] public PistolVocab pvm;
 
         [SerializeField] private TextMeshProUGUI text;
         

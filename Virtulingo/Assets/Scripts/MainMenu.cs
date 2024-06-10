@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour, IContent
 {
     [SerializeField] private CanvasGroup cgMenu,htpButton;
     [SerializeField] private RectTransform exitTransform, titleTransform;
-    [SerializeField] private RawImage instructions;
+    [SerializeField] private CanvasGroup instructions;
     
     private void Start()
     {
