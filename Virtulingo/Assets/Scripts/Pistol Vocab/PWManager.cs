@@ -4,15 +4,18 @@ using System.Linq;
 using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
+using DG.Tweening;
+using UnityEngine.Serialization;
 
 namespace Pistol_Vocab
 {
-    public class PVManager : MonoBehaviour
+    public class PWManager : MonoBehaviour
     {
         private Question currentQuestion;
 
-        [SerializeField] private TextMeshProUGUI question;
+        [SerializeField] private TextMeshProUGUI question, congrats;
         [SerializeField] private GameObject answerPrefab;
+        [SerializeField] private CanvasGroup pwCanvasGroup;
 
         [CanBeNull] private List<Question> questions;
         
@@ -36,7 +39,7 @@ namespace Pistol_Vocab
             questions.Add(new Question("It is important to ... between a fear and a phobia.", new string[4] {"distinguish", "choose", "select", "pick"}));
         }
 
-        public void DrawAndDisplayNewQuestion()
+        private void DrawAndDisplayNewQuestion()
         {
             //TODO: get new question from db
             DisplayQuestion(questions.PickRandom());
@@ -44,39 +47,56 @@ namespace Pistol_Vocab
 
         private void DisplayQuestion(Question questionToDisplay)
         {
-            currentQuestion = questionToDisplay;
-            question.text = currentQuestion.QuestionText;
-            Debug.Log("Question: " + currentQuestion.QuestionText);
-                
-            RectTransform canvasRectTransform = GetComponent<RectTransform>();
-            // Calculate the spacing between each text element
-            float verticalSpacing = canvasRectTransform.rect.height / (currentQuestion.Answers.Count + 1);
-            float horizontalSpacing = canvasRectTransform.rect.width / (currentQuestion.Answers.Count + 1);
-
-            var correctAnswer = currentQuestion.Answers.First();
-            currentQuestion.Answers.Shuffle();
-            
-            for (int i = 0; i < currentQuestion.Answers.Count; i++)
+            // tidy existing content
+            pwCanvasGroup.DOFade(0f, 0.75f).onComplete = () =>
             {
-                var currentAnswer = Instantiate(answerPrefab, transform);
-                var answerTransform = currentAnswer.GetComponent<RectTransform>();
-                float xPos = (i + 1) * horizontalSpacing - canvasRectTransform.rect.width / 2;
-                float yPos = -(i + 1) * verticalSpacing + canvasRectTransform.rect.height / 2;
-                answerTransform.anchoredPosition = new Vector2(xPos, yPos);
-                //answerTransform.sizeDelta = new Vector2(horizontalSpacing, answerTransform.sizeDelta.y);
+                congrats.alpha = 0f;
+                foreach (Transform child in transform)
+                {
+                    if (child.CompareTag("Target"))
+                    {
+                        Destroy(child.gameObject);
+                    }
+                }
                 
-                TextMeshProUGUI textComponent = currentAnswer.GetComponent<TextMeshProUGUI>();
-                textComponent.text = currentQuestion.Answers[i];
+                currentQuestion = questionToDisplay;
+                question.text = currentQuestion.QuestionText;
+                Debug.Log("Question: " + currentQuestion.QuestionText);
+                pwCanvasGroup.DOFade(1.0f, 0.75f);
+                
+                RectTransform canvasRectTransform = GetComponent<RectTransform>();
+                // Calculate the spacing between each text element
+                float verticalSpacing = canvasRectTransform.rect.height / (currentQuestion.Answers.Count + 1);
+                float horizontalSpacing = canvasRectTransform.rect.width / (currentQuestion.Answers.Count + 1);
 
-                var ans = currentAnswer.GetComponent<Answer>();
-                ans.isCorrect = currentQuestion.Answers[i] == correctAnswer;
-                ans.pvm = this;
-                Debug.Log("Answer " + (i + 1) + ": " + currentQuestion.Answers[i]);
-            }
+                var correctAnswer = currentQuestion.Answers.First();
+                currentQuestion.Answers.Shuffle();
+            
+                for (int i = 0; i < currentQuestion.Answers.Count; i++)
+                {
+                    var currentAnswer = Instantiate(answerPrefab, transform);
+                    var answerTransform = currentAnswer.GetComponent<RectTransform>();
+                    float xPos = (i + 1) * horizontalSpacing - canvasRectTransform.rect.width / 2;
+                    float yPos = -(i + 1) * verticalSpacing + canvasRectTransform.rect.height / 2;
+                    answerTransform.anchoredPosition = new Vector2(xPos, yPos);
+                    //answerTransform.sizeDelta = new Vector2(horizontalSpacing, answerTransform.sizeDelta.y);
+                
+                    TextMeshProUGUI textComponent = currentAnswer.GetComponent<TextMeshProUGUI>();
+                    textComponent.text = currentQuestion.Answers[i];
+                    textComponent.alpha = 0f;
+                    textComponent.DOFade(1.0f, 0.75f);
+
+                    var ans = currentAnswer.GetComponent<Answer>();
+                    ans.isCorrect = currentQuestion.Answers[i] == correctAnswer;
+                    ans.pvm = this;
+                    Debug.Log("Answer " + (i + 1) + ": " + currentQuestion.Answers[i]);
+                }
+            };
         }
         
         void Update()
         {
+            //TODO: check for trigger
             if (Input.GetButtonDown("Fire1"))
             {
                 Shoot();
@@ -100,7 +120,7 @@ namespace Pistol_Vocab
         public void AddScore()
         {
             score += currentQuestion.Answers.Count;
-            //TODO: new Question
+            congrats.DOFade(1.0f, 0.75f).onComplete = DrawAndDisplayNewQuestion;
         }
     }
     

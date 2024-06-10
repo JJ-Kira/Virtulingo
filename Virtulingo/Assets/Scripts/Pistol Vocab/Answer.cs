@@ -1,15 +1,17 @@
+using DG.Tweening;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Pistol_Vocab
 {
-    [RequireComponent(typeof(Collider))] 
+    [RequireComponent(typeof(Collider))]
+    [RequireComponent(typeof(TextMeshProUGUI))]
     public class Answer: MonoBehaviour
     {
         public bool isCorrect;
+        [HideInInspector] public PWManager pvm;
 
-        [HideInInspector] public PVManager pvm; 
+        [SerializeField] private TextMeshProUGUI text;
         
         void Start()
         {
@@ -23,7 +25,6 @@ namespace Pistol_Vocab
         
         void OnCollisionEnter(Collision collision)
         {
-            //TODO
             if (collision.gameObject.CompareTag("Projectile"))
             {
                 Destroy(collision.gameObject);  // Destroy the projectile
@@ -35,6 +36,7 @@ namespace Pistol_Vocab
                 {
                     // note wrong answer and/or subtract points
                     pvm.SubtractScore();
+                    text.DOFade(0.75f, 0.75f);
                 }
             }
         }
