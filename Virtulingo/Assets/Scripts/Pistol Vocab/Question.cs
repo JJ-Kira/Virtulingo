@@ -1,8 +1,19 @@
+using System.Collections.Generic;
+
 namespace Pistol_Vocab
 {
     public class Question
     {
         public string QuestionText;
-        public Answer[] Answers;
+        public List<string> Answers;
+        
+        public Question(string question, string[] answers)
+        {
+            QuestionText = question;
+            foreach (var answer in answers)
+            {
+                Answers.Add(answer);
+            }
+        }
     }
 }

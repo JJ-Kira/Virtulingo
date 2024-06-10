@@ -26,7 +26,6 @@ namespace Pistol_Vocab
 
         void OnCollisionEnter(Collision collision)
         {
-            //TODO
             // Handle collision with targets or other objects
             if (collision.gameObject.CompareTag("Target"))
             {

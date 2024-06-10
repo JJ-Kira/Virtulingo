@@ -7,9 +7,9 @@ namespace Pistol_Vocab
     [RequireComponent(typeof(Collider))] 
     public class Answer: MonoBehaviour
     {
-        public string answerText;
         public bool isCorrect;
-        public TextMeshProUGUI textPlaceholder;
+
+        [HideInInspector] public PVManager pvm; 
         
         void Start()
         {
@@ -29,12 +29,12 @@ namespace Pistol_Vocab
                 Destroy(collision.gameObject);  // Destroy the projectile
                 if (isCorrect)
                 {
-                    // give points
+                    pvm.AddScore();
                 }
                 else
                 {
                     // note wrong answer and/or subtract points
-                    Destroy(gameObject);
+                    pvm.SubtractScore();
                 }
             }
         }

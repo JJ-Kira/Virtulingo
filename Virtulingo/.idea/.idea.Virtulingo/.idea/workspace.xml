@@ -6,9 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a6310341-144c-4f15-9ee8-1686db0a9115" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Virtulingo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Virtulingo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pistol Whip/BlackboardCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pistol Whip/BlackboardCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Blackboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Blackboard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/KGBrokenVesselsSketch SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/KGBrokenVesselsSketch SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MainMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MainMenu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Answer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Answer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/PVManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/PVManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Question.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Question.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Rubber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Rubber.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +24,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Blackboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/OneDrive/Dokumenty/GitHub/pz-player/VR/PlayerVR/Assets/Scripts/FileReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MemoMingle/FileExplorer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MemoMingle/PictureListController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MemoMingle/PictureListEntry.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/PVManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Question.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Rubber.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pistol Vocab/Target.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -108,7 +115,9 @@
       <workItem from="1717421486122" duration="3782000" />
       <workItem from="1717588282852" duration="1519000" />
       <workItem from="1717618479579" duration="1674000" />
-      <workItem from="1717706091695" duration="669000" />
+      <workItem from="1717706091695" duration="968000" />
+      <workItem from="1717772537911" duration="2199000" />
+      <workItem from="1718009552077" duration="3370000" />
     </task>
     <servers />
   </component>
