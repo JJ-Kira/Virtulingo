@@ -30,8 +30,8 @@ public class MainMenu : MonoBehaviour, IContent
                 Destroy(htpButton.gameObject);
                 instructions.DOFade(1.0f, 0.5f);
             };
-        exitTransform.DOAnchorPosY(240f, 0.5f);
-        titleTransform.DOAnchorPosY(-240f, 0.5f);
+        exitTransform.DOAnchorPosY(-240f, 0.5f);
+        titleTransform.DOAnchorPosY(240f, 0.5f);
     }
 
     public void Exit()
