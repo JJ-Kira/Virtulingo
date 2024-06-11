@@ -11,18 +11,21 @@ public class PlayButtonController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!animating)
+        if (other.tag == "Player")
         {
-            animating = true;
-            if (!IsPressed)
+            if (!animating)
             {
-                animator.Play("pushDown");
-                IsPressed = true;
-            }
-            else
-            {
-                animator.Play("resetButton");
-                IsPressed = false;
+                animating = true;
+                if (!IsPressed)
+                {
+                    animator.Play("pushDown");
+                    IsPressed = true;
+                }
+                else
+                {
+                    animator.Play("resetButton");
+                    IsPressed = false;
+                }
             }
         }
     }
